@@ -1,0 +1,100 @@
+div{
+    margin-left: 10px;
+}
+img {
+    float: left;
+    padding-right: 5px;
+}
+
+@font-face {
+    font-family: 'Milliard-thin';
+    src: url(Fonts/Rene\ Bieder\ \ Milliard\ Thin.otf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Milliard-medium';
+    src: url(Fonts/Rene\ Bieder\ \ Milliard\ Medium.otf);
+    font-weight: 900;
+}
+h1{
+    font-family: 'Milliard-medium', sans-serif;
+    font-size: 28px;
+    font-weight: 900px;
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    font-family: 'Milliard-thin', sans-serif;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-right: 15px;
+    padding-top: 5px;
+    padding-left: 2px;
+    color: #616161;
+    float: left;
+}
+p{
+    clear: both;
+    font-family: 'Milliard-thin', sans-serif;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-right: 15px;
+    padding-top: 2px;
+    padding-left: 2px;
+    color: #616161;
+    width: 700px;
+}
+button{
+    font-family: 'Milliard-thin', sans-serif;
+    float:left;
+    border-radius: 25px;
+}
+button.detail{
+    /* font styles */
+    color: #29C342;
+    font-size: 18px;
+
+    /* spacing */
+    margin-top: 100px;
+    margin-left: 150px;
+    border-width: thin;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    /* button styles */
+    background-color:white;
+    border-color: #29C342;
+    border-style: solid;
+}
+button.tags{
+    /* font styles */
+    color: white;
+    font-size: 12px;
+
+    /* spacing */
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-width: thin;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    float: left;
+
+    /* button styles */
+    background-color: #29C342;
+    border-color: #29C342;
+    border-style: solid;
+
+    /*shadow */
+    box-shadow: 0px 8px 6px -6px #74eb87;
+}
+hr{
+    clear: both;
+    border: 1px solid #d4d2d2;
+    margin-left: 10px;
+}

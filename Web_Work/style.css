@@ -1,0 +1,72 @@
+
+
+.jobs{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recs{
+    text-align: center;
+
+}
+.job1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding:50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    height: 250px;
+    width: 250px;
+
+}
+.job2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding:50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    height: 250px;
+    width: 250px;
+}
+.job3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding:50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    height: 250px;
+    width: 250px;
+}
+.article1{
+    font-size:0;
+}
+.article1:after{
+    content: 'Top Paying Jobs for Women';
+    font-size: initial;
+    text-decoration:none;
+    color:#29C342
+}
+.article2{
+    font-size:0;
+}
+.article2:after{
+    content: 'Top 10 Best Jobs For Stay At Home Moms';
+    font-size:initial;
+    text-decoration:none;
+    color:#29C342
+}
+.article3{
+    font-size:0;
+}
+.article3:after{
+    content: 'The Best Jobs to Seek Out After Having A Baby';
+    font-size:initial;
+    text-decoration:none;
+    color:#29C342
+}
